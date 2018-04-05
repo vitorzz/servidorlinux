@@ -1,1 +1,20 @@
+#Configuração do código das interfaces
+source /etc/network/interfaces.d/*
 
+#Configuração da interfaces de Loopback
+auto lo
+iface lo inet loopback
+
+# Configurações da interface de rede estática enp0s3
+auto enp0s3
+iface enp0s3 inet static
+address 192.168.1.11
+netmask 255.255.255.0
+network 192.168.1.0
+broadcast 192.168.1.255
+gateway 192.168.1.1
+dns-nameservers 192.168.1.1
+
+#Domínio igual do Microsoft
+dns-search vitor.local
+dns-domain vitor.local
