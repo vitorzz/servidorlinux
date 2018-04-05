@@ -1,0 +1,10 @@
+# Configuração das pesquisas de DNS local utilizando o arquivo hosts
+# Acrescentar o endereço IP + HOSTNAME do servidor + Apelido, separados por TAB
+127.0.0.1		localhost
+127.0.1.1		webserver
+192.168.1.11		webserver.vaamonde.local	webserver
+
+# Configurações de IPv6 não serão utilizadas nesse curso.
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
