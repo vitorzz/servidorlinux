@@ -2,7 +2,7 @@
 # Acrescentar o endereço IP + HOSTNAME do servidor + Apelido, separados por TAB
 127.0.0.1		localhost
 127.0.1.1		webserver
-192.168.1.11		webserver.vaamonde.local	webserver
+192.168.1.11		webserver.vitor.local	webserver
 
 # Configurações de IPv6 não serão utilizadas nesse curso.
 ::1     localhost ip6-localhost ip6-loopback
